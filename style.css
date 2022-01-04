@@ -4,6 +4,7 @@ body {
 }
 section {
 	display: flex;
+	margin-bottom: 100px;
 }
 .half-width{
 	width: 50%;
@@ -33,4 +34,12 @@ div img {
 	background-image: linear-gradient(orange, tomato);
 	color: #ffffff;
 	font-weight: bolder;
+}
+.dream-big {
+	background-image: url(images/dream-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.dream-big p {
+	padding-right: 4px;
 }
